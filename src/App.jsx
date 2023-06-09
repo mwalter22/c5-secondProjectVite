@@ -1,21 +1,16 @@
-import { useState } from 'react'
+
 import './App.css'
-import ClassComponent from './assets/Components/ClassComponent'
-import FuncComponent from './assets/Components/FuncComponent'
+import AxiosGet from './assets/Components/AxiosGet'
+import FetchApi from './assets/Components/FetchApi'
+
 
 function App() {
-  const [toggle, setToggle] = useState(true)
+
 
   return (
     <>
-    {toggle ?
-      <ClassComponent/>
-      :
-      <FuncComponent/>
-    }
-    <button
-      onClick={() => setToggle(!toggle)}
-    >Cambiar a componente de {toggle ? 'Función' : 'Clase'}</button>  
+      {/* <FetchApi/> */}
+      <AxiosGet/>
     </>
   )
 
