@@ -1,7 +1,6 @@
-
 import './App.css'
-import AxiosGet from './assets/Components/AxiosGet'
-import FetchApi from './assets/Components/FetchApi'
+import Navbar from './assets/Components/Navbar'
+import RickAndMorty from './assets/Components/RickAndMorty'
 
 
 function App() {
@@ -9,8 +8,8 @@ function App() {
 
   return (
     <>
-      {/* <FetchApi/> */}
-      <AxiosGet/>
+      <Navbar/>
+      <RickAndMorty/>
     </>
   )
 
